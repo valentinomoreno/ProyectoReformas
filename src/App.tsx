@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 function App() {
   const handleWhatsAppClick = () => {
-    const phoneNumber = '3534415089'; // Teléfono de Reformas M&D
+    const phoneNumber = '4550188405'; // Teléfono de Reformas M&D
     const text = 'Hola Reformas M&D, me gustaría solicitar un presupuesto sin compromiso para una reforma.';
     const encodedText = encodeURIComponent(text);
     window.open(`https://wa.me/${phoneNumber}?text=${encodedText}`, '_blank');
